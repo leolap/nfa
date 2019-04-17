@@ -1,5 +1,5 @@
 class NFA:
-    current_state = None;
+    estadoAtual = None;
     def __init__(self, estados, transicao, inicial, final):
         self.estados = estados;
         self.transicao = transicao;
